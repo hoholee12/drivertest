@@ -1,5 +1,5 @@
 #!/bin/bash
 
-./build.sh
+make
 rmmod hello 2>/dev/null
 insmod hello.ko
