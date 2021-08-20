@@ -1,0 +1,1 @@
+cmd_/home/hoholee12/drivertest/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/hoholee12/drivertest/hello.ko /home/hoholee12/drivertest/hello.o /home/hoholee12/drivertest/hello.mod.o;  true

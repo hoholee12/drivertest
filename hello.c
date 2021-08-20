@@ -5,6 +5,7 @@ MODULE_LICENSE("Dual BSD/GPL");
 
 static int hello_init(void){
 	printhello("asdfadsdf\n");
+	printhello("the pid for the process %s is = %d", current->comm, current->pid);
 	return 0;
 }
 
