@@ -1,2 +1,2 @@
-/home/hoholee12/drivertest/hello.o
+/home/test/drivertest/hello.o
 
