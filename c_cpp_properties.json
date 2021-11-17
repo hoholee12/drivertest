@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name":"linux",
+            "includePath":[
+                "${workspaceFolder}",
+                "/usr/src/linux-headers-5.4.0-90-generic/include"
+            ]
+        }
+    ],
+    "version": 3
+}

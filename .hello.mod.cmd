@@ -1,1 +1,1 @@
-cmd_/home/hoholee12/drivertest/hello.mod := { echo  /home/hoholee12/drivertest/hello.o;  echo; } > /home/hoholee12/drivertest/hello.mod
+cmd_/home/test/drivertest/hello.mod := { echo  /home/test/drivertest/hello.o;  echo; } > /home/test/drivertest/hello.mod
