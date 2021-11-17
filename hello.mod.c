@@ -27,15 +27,22 @@ __used __section(__versions) = {
 	{ 0xb3753869, "module_layout" },
 	{ 0x5ab5b891, "param_ops_int" },
 	{ 0xa3bf6975, "param_array_ops" },
-	{ 0x78f44845, "cdev_del" },
-	{ 0xbabacef1, "device_destroy" },
-	{ 0x7afe113a, "cdev_add" },
-	{ 0xa3036ef8, "cdev_init" },
-	{ 0xb356c301, "class_destroy" },
-	{ 0xff9c16ee, "device_create" },
 	{ 0x6091b333, "unregister_chrdev_region" },
-	{ 0x8d62ea07, "__class_create" },
-	{ 0xe3ec2f2b, "alloc_chrdev_region" },
+	{ 0xb356c301, "class_destroy" },
+	{ 0xbabacef1, "device_destroy" },
+	{ 0x78f44845, "cdev_del" },
+	{ 0x9034a696, "mempool_destroy" },
+	{ 0xa897e3e7, "mempool_free" },
+	{ 0xc3762aec, "mempool_alloc" },
+	{ 0x1953c958, "mempool_create" },
+	{ 0x4302d0eb, "free_pages" },
+	{ 0x6a5cb5ee, "__get_free_pages" },
+	{ 0x999e8297, "vfree" },
+	{ 0xd6ee688f, "vmalloc" },
+	{ 0xb8b9f817, "kmalloc_order_trace" },
+	{ 0x37a0cba, "kfree" },
+	{ 0xf5cb25c8, "kmem_cache_alloc_trace" },
+	{ 0x35216b26, "kmalloc_caches" },
 	{ 0xdecd0b29, "__stack_chk_fail" },
 	{ 0xcbd4898c, "fortify_panic" },
 	{ 0xc5850110, "printk" },
@@ -47,4 +54,4 @@ __used __section(__versions) = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "A837119ECBBBB8A205C6232");
+MODULE_INFO(srcversion, "D3F890B21C9E7F642970390");

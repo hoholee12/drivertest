@@ -21,8 +21,9 @@
 
 #include<linux/uaccess.h> 	//copy_to_user/copy_from_user()
 
+#include<linux/vmalloc.h>
 
-
+#include<linux/mempool.h>	//mempool for reserving memory incase of emergency
 
 
 void printhello(const char* str, ...){

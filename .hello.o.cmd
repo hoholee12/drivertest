@@ -918,6 +918,7 @@ deps_/home/test/drivertest/hello.o := \
   include/linux/percpu-refcount.h \
   include/linux/kasan.h \
     $(wildcard include/config/kasan/generic.h) \
+  include/linux/mempool.h \
 
 /home/test/drivertest/hello.o: $(deps_/home/test/drivertest/hello.o)
 
